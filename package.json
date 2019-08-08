@@ -1,0 +1,66 @@
+{
+    "name": "gargantua-1.0.0",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "axios": "^0.18.0",
+        "echarts": "^4.2.0-rc.2",
+        "html2canvas": "^1.0.0-alpha.12",
+        "iview": "^3.4.2",
+        "js-cookie": "^2.2.0",
+        "jsoneditor": "^5.26.2",
+        "less": "^3.8.1",
+        "particles.js": "^2.0.0",
+        "simplemde": "^1.11.2",
+        "tco-ui": "^1.2.3",
+        "vue": "^2.5.17",
+        "vue-router": "^3.0.1",
+        "vuex": "^3.0.1"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^3.0.0",
+        "@vue/cli-plugin-eslint": "^3.0.0",
+        "@vue/cli-service": "^3.0.0",
+        "less-loader": "^4.1.0",
+        "vue-template-compiler": "^2.5.17"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "eslint:recommended"
+        ],
+        "rules": {
+            "vue/no-parsing-error": [
+                2,
+                {
+                    "x-invalid-end-tag": false
+                }
+            ],
+            "no-console": "error",
+            "no-unused-expressions": "error",
+            "no-unused-vars": "error"
+        },
+        "parserOptions": {
+            "parser": "babel-eslint"
+        }
+    },
+    "postcss": {
+        "plugins": {
+            "autoprefixer": {}
+        }
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not ie <= 8"
+    ]
+}
